@@ -39,4 +39,4 @@ class Speaking
 		s.speak();
 	}
 
-	}
+n	}
