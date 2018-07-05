@@ -17,7 +17,7 @@ public class Main3Activity extends AppCompatActivity {
         E3=(TextView) findViewById(R.id.textView3);
         E4=(TextView) findViewById(R.id.textView4);
 
-        SharedPreferences sps=getSharedPreferences("Pref",MODE_PRIVATE);
+        SharedPreferences sps=getSharedPreferences("pref",MODE_PRIVATE);
         final String u=sps.getString("username","");
         final String p=sps.getString("password","");
         final String D=sps.getString("D-O-B","");
