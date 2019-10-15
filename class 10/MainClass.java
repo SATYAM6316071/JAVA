@@ -1,5 +1,5 @@
 import java.io.File;
- 
+
 public class MainClass
 {
     public static void main(String[] args) 
@@ -12,6 +12,7 @@ public class MainClass
          
         for (File file : files) 
         {
+		// checking if file is a folder or not
             System.out.println(file.getPath());
             storage+=file.getPath()+",";
 			if(file.isDirectory())
